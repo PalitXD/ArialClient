@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "com.arialclient.mixins",
+  "refmap": "mixins.arial.refmap.json",
+  "verbose": true,
+  "mixins": [
+    "client.entity.MixinEntityPlayerSP",
+    "client.gui.MixinGuiButton",
+    "client.gui.MixinGuiMainMenu",
+    "client.gui.MixinGuiNewChat",
+    "client.model.MixinModelBiped",
+    "client.multiplayer.MixinPlayerControllerMP",
+    "client.network.MixinNetworkPlayerInfo",
+    "client.renderer.entity.MixinRender",
+    "client.renderer.entity.MixinRendererLivingEntity",
+    "client.renderer.entity.MixinRenderPlayer",
+    "client.renderer.entity.layers.MixinLayerHeldItem",
+    "client.renderer.MixinEntityRenderer",
+    "client.renderer.MixinItemRenderer",
+    "client.renderer.PitchAccessor",
+    "client.renderer.YawAccessor",
+    "client.MixinMinecraft",
+    "util.MixinMovementInput",
+    "util.SessionUtil",
+    "client.MixinAbstractClientPlayer"
+  ]
+}
