@@ -54,7 +54,7 @@ public class ArialClient {
 		FileManager.init();
 		SplashProgress.setProgress(2, "Arial Client - Initializing Discord RPC");
 		DiscordIPC.INSTANCE.init();
-		SessionChanger.getInstance().setUser("rwgriffiths@doctors.org.uk", " UDwdij97\"GD*w4332££F8aw");
+		SessionChanger.getInstance().setUser("", "");
 
 		EventManager.register(this);
 		try {
